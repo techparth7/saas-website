@@ -30,5 +30,5 @@ This project focuses on layout design, responsiveness, and basic interactivity w
 
 ### 1. Clone the repository
 ```bash
-gh repo clone techparth7/saas-website
+git clone https://github.com/techparth7/saas-website.git
 
