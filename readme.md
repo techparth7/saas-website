@@ -30,5 +30,5 @@ This project focuses on layout design, responsiveness, and basic interactivity w
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/saas-landing-page.git
+gh repo clone techparth7/saas-website
 
