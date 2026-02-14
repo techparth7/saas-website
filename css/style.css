@@ -233,3 +233,135 @@ img{
 .section-c .container .section-B-gridbox .boxes .gridbox-name-corporation .gridbox-name{
     font-weight: bold;
 }
+
+/* Pricing */
+
+.section-c .pricing-gridbox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: left;
+}
+
+.section-c .pricing-gridbox .pricing-simple, 
+.section-c .pricing-gridbox .pricing-primium{
+    padding: 20px 20px 10px;
+    border-radius: 10px;
+}
+
+.section-c .pricing-gridbox .pricing-tag{
+    margin-top: 30px;
+    padding: 20px 0;
+    border-bottom:1px solid gray ;
+}
+
+.section-c .pricing-gridbox ul{
+    margin: 30px 0;
+}
+
+.section-c .pricing-gridbox ul li{
+    padding: 10px 0;
+}
+
+.section-c .pricing-gridbox .button{
+    width: 100%;
+}
+
+.section-c .pricing-gridbox .pricing-simple{
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.section-c .pricing-gridbox .pricing-primium{
+    background-color: #000;
+    color: #fff;
+}
+
+.section-c .section-c-lower-text{
+    margin-top: 30px;
+}
+
+/* FAQ group */
+.section-D-FAQ .faq-content{
+    color: #333;
+}
+
+.section-D-FAQ .faq-content .faq-group{
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #ccc;
+}
+
+.section-D-FAQ .faq-content .faq-group h4{
+    font-weight: 600;
+    width: 90%;
+}
+
+.section-D-FAQ .faq-content .faq-group .faq-group-header{
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+
+.section-D-FAQ .faq-content .faq-group .faq-group-header i{
+    position: absolute;
+    right: 0;
+    top: 35px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.section-D-FAQ .faq-content .faq-group .faq-group-body{
+    display: none;
+}
+
+.section-D-FAQ .faq-content .faq-group .faq-group-body.open{
+    display: block;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer ul li {
+  line-height: 2.5;
+}
+
+.footer a {
+  color: #ccc;
+}
+
+.footer i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .card {
+  margin: 20px 30px 30px 0;
+}
+
+.footer input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.card{
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
